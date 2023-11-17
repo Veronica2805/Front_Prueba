@@ -1,0 +1,71 @@
+<main>
+    <div class="actions">
+        <app-action class="action" (onClick)="handleClick('Obtener i')" [text]="'Obtener i'"></app-action>
+        <app-action class="action" (onClick)="handleClick('Obtener ii')" [text]="'Obtener ii'"></app-action>
+        <app-action class="action" (onClick)="handleClick('Obtener iii')" [text]="'Obtener iii'"></app-action>
+        <app-action class="action" (onClick)="handleClick('Crear empleado')" [text]="'Crear empleado'"></app-action>
+        <app-action class="action" (onClick)="handleClick('Mover empleado de departamento')" [text]="'Mover empleado de departamento'"></app-action>
+        <app-action class="action" (onClick)="handleClick('Eliminar empleado')" [text]="'Eliminar empleado'"></app-action>
+        <app-action class="action" (onClick)="handleClick('Crear lider')" [text]="'Crear lider'"></app-action>
+        <app-action class="action" (onClick)="handleClick('Mover lider de departamento')" [text]="'Mover lider de departamento'"></app-action>
+        <app-action class="action" (onClick)="handleClick('Eliminar lider')" [text]="'Eliminar lider'"></app-action>
+    </div>
+    
+    <div class="organigrama">
+        <div class="cuadro">
+            <h4>LEXGO</h4>
+        </div>
+    </div>
+    
+    <div class="organigrama">
+        <div class="cuadro">
+            <h4>Departamento A</h4>
+        </div>
+        <div class="cuadro">
+            <h4>Departamento B</h4>
+        </div>
+        <div class="cuadro">
+            <h4>Departamento B</h4>
+        </div>
+    </div>
+    
+    <div class="organigrama">
+        <div class="cuadro">
+            <h4>Alejandro Gonzalez</h4>
+            <p>Lider Dep. A</p>
+        </div>
+        <div class="cuadro">
+            <h4>Maria Rodriguez</h4>
+            <p>Lider Dep. C</p>
+        </div>
+    </div>
+    
+    <div class="organigrama">
+        <div class="cuadro">
+            <h4>Javier Lopez</h4>
+            <p>Empleado Dep. A</p>
+        </div>
+        <div class="cuadro">
+            <h4>Laura Fernandez</h4>
+            <p>Empleado Dep. A</p>
+        </div>
+        <div class="cuadro">
+            <h4>Carlos Perez</h4>
+            <p>Empleado Dep. B</p>
+        </div>
+        <div class="cuadro">
+            <h4>Ana Martinez</h4>
+            <p>Empleado Dep. B</p>
+        </div>
+        <div class="cuadro">
+            <h4>Luis Sanchez</h4>
+            <p>Empleado Dep. C</p>
+        </div>
+        <div class="cuadro">
+            <h4>Carmen Ramirez</h4>
+            <p>Empleado Dep. C</p>
+        </div>
+    </div>
+</main>
+
+<router-outlet></router-outlet>
